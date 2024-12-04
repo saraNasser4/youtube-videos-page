@@ -1,0 +1,28 @@
+.aside {
+    display: grid;
+    grid-template-rows: repeat(5, 75px);
+    position: fixed;
+    top: 65px;
+    bottom: 0;
+    background-color: white;
+    width: 100px;
+    margin: 5px;
+    font-size: 12px;
+    text-align: center;
+    z-index: 100;
+
+    .aside-icon {
+        height: 70px;
+        padding: 10px;
+        border-radius: 16px;
+        cursor: pointer;
+        transition: all 0.18s;
+    }
+    .aside-icon:hover {
+        background-color: rgb(233, 233, 233);
+    }
+
+    img {
+        width: 25px;
+    }
+}
